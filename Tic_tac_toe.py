@@ -114,6 +114,7 @@ def main():
     #     root.destroy()
 
     # root.protocol('WM_DELETE_WINDOW', root.destroy)
+    root.resizable(0, 0)
     root.mainloop()
 
 
